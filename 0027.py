@@ -9,7 +9,7 @@ for a in tqdm(range(-s, s)):
         count = 0
         while True:
             x = n**2 + a*n + b
-            if x  <1 or not isprime(x):
+            if x < 1 or not isprime(x):
                 break
             count += 1
             n += 1
